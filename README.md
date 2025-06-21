@@ -14,8 +14,7 @@ public class LoopQuestions {
 
         int copy = num;
         int final_sum = 0;
-        int i = 1;
-        while(true){
+        while(num > 0){
             int digit = num/10;
             num /= 10;
             if(true) {
@@ -26,6 +25,6 @@ public class LoopQuestions {
             }
             if(digit == 0)
                 break;
-            i++;
+            
         }
         System.out.println(final_sum);
